@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 6cd0efaa2993ca04da667cabc7c46346
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chainlink_fence_inner_corner90
+    100002: chainlink_fence_inner_corner91
+    100004: chainlink_fence_inner_corner92
+    100006: chainlink_fence_no_columns
+    100008: chainlink_fence_no_columns2
+    100010: chainlink_fence_without_proxy:chainlink_fence_inner_corner90
+    100012: chainlink_fence_without_proxy:chainlink_fence_leftcol_only
+    100014: chainlink_fence_without_proxy:chainlink_fence_no_columns
+    100016: chainlink_fence_without_proxy:chainlink_fence_no_columns_no_wire
+    100018: chainlink_fence_without_proxy:chainlink_fence_rightcol_only
+    100020: //RootNode
+    100022: hinge
+    100024: root
+    400000: chainlink_fence_inner_corner90
+    400002: chainlink_fence_inner_corner91
+    400004: chainlink_fence_inner_corner92
+    400006: chainlink_fence_no_columns
+    400008: chainlink_fence_no_columns2
+    400010: chainlink_fence_without_proxy:chainlink_fence_inner_corner90
+    400012: chainlink_fence_without_proxy:chainlink_fence_leftcol_only
+    400014: chainlink_fence_without_proxy:chainlink_fence_no_columns
+    400016: chainlink_fence_without_proxy:chainlink_fence_no_columns_no_wire
+    400018: chainlink_fence_without_proxy:chainlink_fence_rightcol_only
+    400020: //RootNode
+    400022: hinge
+    400024: root
+    2100000: chainlink_fence_without_proxy_concmetwire1
+    2100002: chainlink_fence_without_proxy_chainlink1
+    4300000: chainlink_fence_without_proxy:chainlink_fence_no_columns
+    4300002: chainlink_fence_without_proxy:chainlink_fence_inner_corner90
+    4300004: chainlink_fence_without_proxy:chainlink_fence_leftcol_only
+    4300006: chainlink_fence_without_proxy:chainlink_fence_rightcol_only
+    4300008: chainlink_fence_without_proxy:chainlink_fence_no_columns_no_wire
+    4300010: chainlink_fence_inner_corner90
+    4300012: chainlink_fence_inner_corner91
+    4300014: chainlink_fence_inner_corner92
+    4300016: chainlink_fence_no_columns
+    4300018: chainlink_fence_no_columns2
+    7400000: PrisonOutdoorArea.0004
+    9500000: //RootNode
+    13700000: chainlink_fence_inner_corner90
+    13700002: chainlink_fence_inner_corner91
+    13700004: chainlink_fence_inner_corner92
+    13700006: chainlink_fence_no_columns
+    13700008: chainlink_fence_no_columns2
+    13700010: chainlink_fence_without_proxy:chainlink_fence_inner_corner90
+    13700012: chainlink_fence_without_proxy:chainlink_fence_leftcol_only
+    13700014: chainlink_fence_without_proxy:chainlink_fence_no_columns
+    13700016: chainlink_fence_without_proxy:chainlink_fence_no_columns_no_wire
+    13700018: chainlink_fence_without_proxy:chainlink_fence_rightcol_only
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PrisonOutdoorArea.0004
+      takeName: PrisonOutdoorArea.0004
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

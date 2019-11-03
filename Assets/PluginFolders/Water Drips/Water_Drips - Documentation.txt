@@ -1,0 +1,9 @@
+A dripping water effect with a water drop falling to the ground and then colliding with multiple splash effects.
+
+Load the "Water_Drips.unity" for an example scene, or drag an WaterDrip asset from the Prefabs folder from the Project window into the Hierarchy window, placing it where you want the water to leak from.
+
+Have fun!
+
+Thanks for purchasing this asset, please consider rating or writing a review about it. If you have any questions then please get in touch at bendurrant@rivermillstudios.com
+
+

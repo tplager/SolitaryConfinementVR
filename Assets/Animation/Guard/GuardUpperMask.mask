@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GuardUpperMask
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: guard
+    m_Weight: 0
+  - m_Path: root
+    m_Weight: 0
+  - m_Path: root/spine_1
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_left
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_left/knee_left
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_left/knee_left/ankle_left
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_left/knee_left/ankle_left/foot_left
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_left/knee_left/ankle_left/foot_left/toe_left
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_right
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_right/knee_right
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_right/knee_right/ankle_right
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_right/knee_right/ankle_right/foot_right
+    m_Weight: 0
+  - m_Path: root/spine_1/hip_right/knee_right/ankle_right/foot_right/toe_right
+    m_Weight: 0
+  - m_Path: root/spine_1/spine_2
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/index_base_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/index_base_left/index_knuckle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/index_base_left/index_knuckle_left/index_joint_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/index_base_left/index_knuckle_left/index_joint_left/index_tip_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/middle_base_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/middle_base_left/middle_knuckle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/middle_base_left/middle_knuckle_left/middle_joint_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/middle_base_left/middle_knuckle_left/middle_joint_left/middle_tip_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/pinky_base_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/pinky_base_left/pinky_knuckle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/pinky_base_left/pinky_knuckle_left/pinky_joint_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/pinky_tip_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/ring_base_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/ring_base_left/ring_knuckle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/ring_base_left/ring_knuckle_left/ring_joint_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/ring_base_left/ring_knuckle_left/ring_joint_left/ring_tip_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/thumb_base_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/thumb_base_left/thumb_knuckle_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_left/shoulder_left/elbow_left/wrist_left/palm_left/thumb_base_left/thumb_knuckle_left/thumb_tip_left
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/index_base_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/index_base_right/index_knuckle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/index_base_right/index_knuckle_right/index_joint_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/index_base_right/index_knuckle_right/index_joint_right/index_tip_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/middle_base_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/middle_base_right/middle_knuckle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/middle_base_right/middle_knuckle_right/middle_joint_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/middle_base_right/middle_knuckle_right/middle_joint_right/middle_tip_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/pinky_base_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/pinky_base_right/pinky_knuckle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/pinky_base_right/pinky_knuckle_right/pinky_joint_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/pinky_base_right/pinky_knuckle_right/pinky_joint_right/pinky_tip_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/ring_base_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/ring_base_right/ring_knuckle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/ring_base_right/ring_knuckle_right/ring_joint_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/ring_base_right/ring_knuckle_right/ring_joint_right/ring_tip_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/thumb_base_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/thumb_base_right/thumb_knuckle_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/clavicle_right/shoulder_right/elbow_right/wrist_right/palm_right/thumb_base_right/thumb_knuckle_right/thumb_tip_right
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/neck
+    m_Weight: 1
+  - m_Path: root/spine_1/spine_2/neck_base/neck/head
+    m_Weight: 1
+  - m_Path: root/spine_1/stomach
+    m_Weight: 1

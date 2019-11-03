@@ -1,0 +1,132 @@
+# VR Experience of Solitary Confinement - Documentation
+
+## File Location Scheme
+
+Files are located in corresponding folders within the Assets folder. 
+
+*Animation*
+
+The Animation folder contains all animation assets. This includes animations exported with the models as well as the animation controllers they are used with. It also includes animation files made using Unity's animation editor. 
+
+The Animated assets include the door, the slider, the gate of the fence, the old sink with handles, and the toilet. It also includes a walk cycle for the guard that will likely need to be edited or remade before being used. 
+
+*Materials*
+
+The Materials folder contains all materials for all objects in the scene separated into subfolders for easier organization. Each material's name describes what it is used on. There are some materials provided by SteamVR and other plugins that are still contained in their respective folders. 
+
+*Models*
+
+The Models folder contains all of the models used in the scene besides those provided by various plugins. Some models are not used and are only in the folder for potential future use or for testing purposes. 
+
+*PluginFolders*
+
+The Plugin Folders directory contains all folders for the various plugins and packages in the project that are not contained in the packages folder. 
+
+*Prefabs*
+
+The Prefabs folder contains most of the GameObjects used in the project. Any GameObject that scripts need access to as a prefab or that needed to be used more than once has been saved as a prefab. Most objects in the project fit into this category. These objects are also sorted into other subfolders based on what category they fit into. 
+
+The Player prefab, in particular, is a slightly customized version of the SteamVR player object. This was created because, when changing scenes and returning to old scenes, multiple player objects are created. This necessicated the creation of a player prefab that could be spawned using the SceneController script at the beginning of the experience. 
+
+*Scenes*
+
+The Scenes folder contains the 2 scenes that comprise the project, the Cell Scene and the Outdoor Scene, as well as 2 other scenes for testing purposes, ProjectScene, which contains an entire layout of the cell scene and the outdoor scene together, and TestingScene, an empty scene with just a few objects and a teleport area for testing without other behaviors. 
+
+*Scripts*
+
+The Scripts folder contains all of the scripts used in the project separated into subfolders based on what object(s)' behaviors they modify. 
+
+AnimatedObjects contains scripts to control the animated objects, both those imported with models and those made with the Unity Animation editor. 
+
+The Follower folder contains scripts related to making the guard follow a path around the prison if wanted. 
+
+The Meals folder contains scripts related to moving the meal trays into the cell and interacting with the meal trays and the objects (foods) associated with them. 
+
+The Scene Manager folder contains all scripts related to managing the data and behaviors of the scenes in general. This includes the large scale behaviors such as spawning the player at the beginning of the experience as well as controlling the data flow between scenes. 
+
+*Sounds*
+
+The sounds folder contains all of the sound effecfts used in the experience. These sound effeccts are separated into 2 folders based on whether the sound is looping ambience or a sound effect that plays at a specfic moment and associated with a certain action. 
+
+*Textures*
+
+The Textures folder contains all of the textures in the project. These textures are separated into folders for each object the textures are associated with. Within each folder, there are typically 3 textures. One for Unity's Albedo slot on a material. One for Unity's Metallic slot on a material. And one for Unity's Normal slot on a material. Some folders do not contain all of these textures because they were textures found online, rather than created textures. 
+
+*Videos*
+
+The Videos folder currently only contains the file for the rain video placed outside the window of the cell. 
+
+## Working with the Project
+
+Much of the project is fairly self explanatory, and all of the scripts are commented and documented. However, there are a few specifics to note. To alter the time that any specific section of the experience takes, you only have to select the TimeManager object in the hierarchy and alter the "SECONDS_TILL..." variables in the inspector. These variables are all in seconds and are used in the CellSceneManger and OutsideSceneManager to compare against a "ticker" that is incremented using Time.deltaTime. 
+
+To change the Player object or add componenets, you will have to create a Player object from the Prefabs folder in the scene, modify it, and then create a new prefab by the same name. This will then have to be reassigned in the PlayerPrefab field of the SceneController's SceneController script component. To move the location where the player spawns, move the the PlayerMarker object to the new desired location. 
+
+The only other note is regarding the grip poses for the foods. On occasion these poses may start a scene slightly offset from the correct location. As of yet, I am not sure what the root of this problem is, but as long as none of the grip poses are modified it may continue working. If you wish to modify the grip poses, make sure to only move and rotate the vr_glove_right_model_slim(Clone) (or vr_glove_left_model_slim(Clone)) object and the individual finger objects. If any other objects or joints such as the root joint, the model itself, or the wrist are modified, this modification will likely not follow to the pose. If you run into problems, I solved it by simply restarting with a new version of the pose I was working on. 
+
+## Included Plugins and Packages
+
+Day-Night Skyboxes: Downloaded from Unity Asset Store. Not all files are included. Not currently used, but included for potential future use. 
+
+Resonance Audio: Audio Spatializer Package imported from https://resonance-audio.github.io/resonance-audio/
+
+Standard Assets: Downloaded from Unity Asset Store. Not currently used, but included for potential future use. 
+
+Water Drips: Downloaded from Unity Asset store. Purchased by myself. Provides the models and particle effects necessary to create a very realistic water dripping effect in the experience. 
+
+SteamVR: Downloaded from Unity Asset Store. Version 2.3.2
+
+PostProcessing: Downloaded from Unity PackageManager
+
+## Resources
+
+### Models 
+
+Fence: https://www.turbosquid.com/3d-models/free-max-mode-pack-chainlink-fence-modular/617381 - George Piskas
+
+Reuben Sandwich: https://free3d.com/3d-model/reuben-sandwich-on-plate-v2--546020.html - printable_models
+
+Apple: https://www.turbosquid.com/3d-models/3d-apple-1199076 - 3dfood
+
+Cereal Bowl: https://www.turbosquid.com/3d-models/cereal-bowl-max-free/983160 - cgs3d
+
+Milk Carton: https://archive3d.net/?a=download&id=d1ae1dc2 - Cube3DOfficial
+
+Coffee Cup: https://www.turbosquid.com/3d-models/coffee-cup-3ds-free/770582 - rocketee_dee
+
+Fried Egg: https://free3d.com/3d-model/spiegelei-fried-egg-52254.html - shylionheart
+
+Bread Roll: https://www.turbosquid.com/3d-models/3d-bread-roll-1342986 - Hristo Dimitrov
+
+Potato Chips: https://www.cgtrader.com/free-3d-models/food/miscellaneous/potato-chips-bag-ee73209e-048e-472e-a226-7886d0c05d12 - carmag
+
+Bread: https://www.turbosquid.com/3d-models/3d-model-toast-food-bread-1411908 - cgaustria
+
+All other models were created by myself, Trenton Plager, and can be used if credit is given
+
+### Textures
+
+Seamless Grass Texture: http://texturelib.com/#!/category/?path=/Textures/grass/grass
+
+Brick Wall: https://www.textures.com/download/bricksmallpainted0119/52673
+
+Small Brick Wall: https://www.textures.com/download/bricksmallpainted0186/88371
+
+Concrete: https://www.textures.com/download/concretefloors0078/51831
+
+Metal: https://www.textures.com/download/metalbare0262/135098?q=steel
+
+### Audio
+
+Biting soud effect: http://soundbible.com/1968-Apple-Bite.html
+
+Cart Rolling Sound Effect: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/rolling-utility-cart-110
+
+Other sound effects are used with permission from my own sources and from royalty free sound libraries I either own or have access to with permission.
+
+### Scripts
+
+Rotating Sun: https://alexdunn.org/2017/05/31/unity-tip-create-a-rotating-sun/ - Alex Dunn
+
+## Further Support
+Once again, if you need any further support, you can reach me at tlp6760@g.rit.edu. 

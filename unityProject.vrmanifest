@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.testvrproject.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Summer2019Project\\Test VR Project\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Test VR Project [Testing]"
+        }
+      }
+    }
+  ]
+}
